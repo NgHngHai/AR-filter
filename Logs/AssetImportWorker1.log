@@ -1,0 +1,328 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Dev\Unity\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Study/VR/AR-filter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50646
+Successfully changed project path to: D:/Study/VR/AR-filter
+D:/Study/VR/AR-filter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24416] Host "[IP] 26.160.104.53 [Port] 0 [Flags] 2 [Guid] 2443546510 [EditorId] 2443546510 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VDSO0CG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24416] Host "[IP] 26.160.104.53 [Port] 0 [Flags] 2 [Guid] 2443546510 [EditorId] 2443546510 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VDSO0CG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 29.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Study/VR/AR-filter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     8073 MB
+    Driver:   31.0.101.2125
+Initialize mono
+Mono path[0] = 'D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014303 seconds.
+- Loaded All Assemblies, in  0.883 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 747 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.519 seconds
+Domain Reload Profiling: 2401ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (332ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1002ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.119 seconds
+Refreshing native plugins compatible for Editor in 22.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.372 seconds
+Domain Reload Profiling: 9490ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (5627ms)
+		LoadAssemblies (4795ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (984ms)
+			TypeCache.Refresh (852ms)
+				TypeCache.ScanAssembly (813ms)
+			ScanForSourceGeneratedMonoScriptInfo (91ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2843ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (2317ms)
+			ProcessInitializeOnLoadMethodAttributes (237ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 24.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6853 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 140 unused Assets / (4.1 MB). Loaded Objects now: 7267.
+Memory consumption went from 257.3 MB to 253.1 MB.
+Total: 12.711400 ms (FindLiveObjects: 0.742600 ms CreateObjectMapping: 0.725300 ms MarkObjects: 5.937000 ms  DeleteObjects: 5.304400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1146476.025377 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_CrazyEyes.prefab
+  artifactKey: Guid(e1ecc5d8ad4385a4688bbf80596ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_CrazyEyes.prefab using Guid(e1ecc5d8ad4385a4688bbf80596ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b77944d9e91a6f55d9557097030ea9a') in 0.028905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_HiHat.prefab
+  artifactKey: Guid(bb955633cf56f1f48a897b385ca04e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_HiHat.prefab using Guid(bb955633cf56f1f48a897b385ca04e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23d6eb971cb644b78353f967bd77873') in 0.002956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_Cap.prefab
+  artifactKey: Guid(6229c3363bbce7c4590b0a74326ec07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_Cap.prefab using Guid(6229c3363bbce7c4590b0a74326ec07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe6c0d0b3704d09e4ae04e98c161d6a') in 0.002333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_Horns.prefab
+  artifactKey: Guid(0cf6f8839032dd44da3842a706ab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_Horns.prefab using Guid(0cf6f8839032dd44da3842a706ab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e380107f13a5187240272e996e0f822') in 0.002920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_CatNose.prefab
+  artifactKey: Guid(cdbd3952e4784a9468547b3b0f4c0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_CatNose.prefab using Guid(cdbd3952e4784a9468547b3b0f4c0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46261c26b0d8319e51217dfba1d5ab36') in 0.002917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/Props_Moustache.prefab
+  artifactKey: Guid(c19af72d0001ce34c82ba1c7a3f5cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/Props_Moustache.prefab using Guid(c19af72d0001ce34c82ba1c7a3f5cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e19bc7e6c4d828becc4cbc30af1d7') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 748.954831 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Face Debug MAT.mat
+  artifactKey: Guid(d5b24823eb2bd0f4990a6c8dc134fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Face Debug MAT.mat using Guid(d5b24823eb2bd0f4990a6c8dc134fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dadbefedd4ee5c98b5258be89c7a56') in 0.005242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Flame2_Particle.mat
+  artifactKey: Guid(c4bfa10a32e160749933d1aa8ab0bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Flame2_Particle.mat using Guid(c4bfa10a32e160749933d1aa8ab0bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88218f8ff4c3bedb93a73d2aad7d8db6') in 0.002218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/_BasicFaceFilter/Materials
+  artifactKey: Guid(240aa1ba7d5f0a84980bf9e66734a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials using Guid(240aa1ba7d5f0a84980bf9e66734a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4f3a6b6c4c567fab04e41b896ab70') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/_BasicFaceFilter/Materials/FaceTemplate.mat
+  artifactKey: Guid(94bc970bc540594418da619b8dae2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/FaceTemplate.mat using Guid(94bc970bc540594418da619b8dae2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc36bcfecd12da629f4224e96629d652') in 0.002099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Raindrop_Particle.mat
+  artifactKey: Guid(d626c3faf89bd9446a274676445871af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Raindrop_Particle.mat using Guid(d626c3faf89bd9446a274676445871af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b182bf5550a537c8c2d82d0f5788bc4') in 0.002006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Particles.mat
+  artifactKey: Guid(cdab51151839a8e4ea0a259c284f81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Particles.mat using Guid(cdab51151839a8e4ea0a259c284f81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b036b6957c99f687b21ee3fc73a24f29') in 0.001643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Flame1_Particle.mat
+  artifactKey: Guid(8ea66f8123460894c966b178627e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Flame1_Particle.mat using Guid(8ea66f8123460894c966b178627e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ddd6e01973e3bfa6cddb9b34d92b5c') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (4.0 MB). Loaded Objects now: 7270.
+Memory consumption went from 129.6 MB to 125.6 MB.
+Total: 11.027100 ms (FindLiveObjects: 0.909400 ms CreateObjectMapping: 0.592900 ms MarkObjects: 6.764300 ms  DeleteObjects: 2.758300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3579.581099 seconds.
+  path: Assets/_BasicFaceFilter/Particle Effects/Fire_VFX.prefab
+  artifactKey: Guid(b5c43875392269c49beedc9cb1cfc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Particle Effects/Fire_VFX.prefab using Guid(b5c43875392269c49beedc9cb1cfc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebe829fb94cbf494c8704a53c09b078') in 0.015893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.001329 seconds.
+  path: Assets/_BasicFaceFilter/Particle Effects/Steam_VFX.prefab
+  artifactKey: Guid(f04cdeaaa80365048987028f2374f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Particle Effects/Steam_VFX.prefab using Guid(f04cdeaaa80365048987028f2374f4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e6e9e34176745aeba38bd11bcd7185') in 0.005485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
