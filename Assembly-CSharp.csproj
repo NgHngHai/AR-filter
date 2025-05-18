@@ -65,9 +65,13 @@
     <Compile Include="Assets\MobileARTemplateAssets\Scripts\ARFeatheredPlaneMeshVisualizerCompanion.cs" />
     <Compile Include="Assets\MobileARTemplateAssets\Scripts\GoalManager.cs" />
     <Compile Include="Assets\Scripts\FlashEffect.cs" />
+    <Compile Include="Assets\Scripts\ARFilterManager.cs" />
+    <Compile Include="Assets\Scripts\JawOpenTracker.cs" />
     <Compile Include="Assets\Scripts\GaleryLauncher.cs" />
     <Compile Include="Assets\Scripts\ARCameraCapture.cs" />
     <Compile Include="Assets\Settings\Project Configuration\SceneTemplate_RotateCube.cs" />
+    <Compile Include="Assets\Scripts\ButtonCarousel.cs" />
+    <Compile Include="Assets\Scripts\PlayAnimController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -76,6 +80,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\MobileARTemplateAssets\Shaders\ShadowReceiver\ShadowReceiverShaderFunctions.hlsl" />
+    <None Include="Assets\Shaders&amp;Mats\DepthShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -1183,9 +1188,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NativeGallery.Runtime.csproj">
+      <Project>{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}</Project>
+      <Name>NativeGallery.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.csproj">
       <Project>{D8D3C4B7-B172-F361-0CD7-58E5A25A16A0}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeGallery.Editor.csproj">
+      <Project>{E6738555-B24B-97B7-F937-B280BE9FE04A}</Project>
+      <Name>NativeGallery.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj">
       <Project>{4F34F824-34A1-8544-0799-51AC8A8F01D2}</Project>

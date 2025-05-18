@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Editor", "NativeGallery.Editor.csproj", "{E6738555-B24B-97B7-F937-B280BE9FE04A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Runtime", "NativeGallery.Runtime.csproj", "{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{263860E2-32C5-809D-2DD1-BE061C5579DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{DB6DDC5D-2F5F-68B6-2EBD-14AE315890EE}"
@@ -17,6 +21,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6738555-B24B-97B7-F937-B280BE9FE04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6738555-B24B-97B7-F937-B280BE9FE04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6738555-B24B-97B7-F937-B280BE9FE04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6738555-B24B-97B7-F937-B280BE9FE04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A9F29B-6781-8B04-57F4-7F0F8AB6DF68}.Release|Any CPU.Build.0 = Release|Any CPU
 		{263860E2-32C5-809D-2DD1-BE061C5579DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{263860E2-32C5-809D-2DD1-BE061C5579DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263860E2-32C5-809D-2DD1-BE061C5579DF}.Release|Any CPU.ActiveCfg = Release|Any CPU

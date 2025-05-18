@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4101404154899709992}
   m_Layer: 0
-  m_Name: Face_Reference_Mesh
+  m_Name: DepthMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

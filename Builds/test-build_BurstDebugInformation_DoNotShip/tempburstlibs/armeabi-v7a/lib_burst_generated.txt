@@ -8,6 +8,7 @@ Library: D:\Study\VR\AR-filter\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_bu
 --float-precision=Standard
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Study\VR\AR-filter\Temp\Burst
+--debug=LineOnly
 --key-folder=D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=D:\Study\VR\AR-filter\Library\Burst
 --output=D:\Study\VR\AR-filter\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
@@ -100,6 +101,7 @@ Library: D:\Study\VR\AR-filter\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_bu
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Study\VR\AR-filter\Temp\Burst
+--debug=LineOnly
 --key-folder=D:/Dev/Unity/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=D:\Study\VR\AR-filter\Library\Burst
 --output=D:\Study\VR\AR-filter\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated

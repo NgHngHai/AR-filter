@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
 using System.IO;
 using System.Collections;
+using System;
 
 public class ARCameraCapture : MonoBehaviour
 {
-    public Camera arCamera;  // ← Drag AR Camera từ AR Session Origin vào đây
+    public Camera arCamera; // Kéo AR Camera vào đây
     public int width = 1080;
     public int height = 1920;
 
     public FlashEffect flashEffect;
 
-
     public void CapturePhoto()
     {
-
         if (flashEffect != null)
             flashEffect.PlayFlash();
+
         StartCoroutine(CaptureRoutine());
     }
 
@@ -33,15 +33,18 @@ public class ARCameraCapture : MonoBehaviour
         tex.ReadPixels(new Rect(0, 0, width, height), 0, 0);
         tex.Apply();
 
-        // Reset
+        // Reset lại camera
         arCamera.targetTexture = null;
         RenderTexture.active = null;
         Destroy(rt);
 
-        // Lưu file
-        string path = Path.Combine(Application.persistentDataPath, "AR_" + System.DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".png");
+        // Lưu ảnh tạm để ghi vào Gallery
+        string filename = "AR_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".png";
+        string path = Path.Combine(Application.temporaryCachePath, filename);
         File.WriteAllBytes(path, tex.EncodeToPNG());
-        Debug.Log("Ảnh đã lưu: " + path);
+
+        // Ghi ảnh vào Gallery
+        NativeGallery.SaveImageToGallery(path, "AR Captures", filename);
 
         Destroy(tex);
     }
